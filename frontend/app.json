@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "frontend",
+    "slug": "appforjobsearch",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.app.firstpraticeapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.app.frontend"
+    },
+    "web": {},
+    "extra": {
+      "eas": {
+        "projectId": "3e28e1fe-5567-48f2-8b25-196a275bb62a"
+      }
+    },
+    "owner": "rajukommula"
+  }
+}
