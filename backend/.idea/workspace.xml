@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77dcba44-3059-4d30-b10a-c184d05da778" name="Changes" comment="added frontend">
+    <list default="true" id="77dcba44-3059-4d30-b10a-c184d05da778" name="Changes" comment="added mvn plugin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthService1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693635547824</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added mvn plugin">
+      <created>1693637972906</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693637972906</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +247,7 @@
     <MESSAGE value="Initial Committ" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="added frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="added frontend" />
+    <MESSAGE value="added mvn plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="added mvn plugin" />
   </component>
 </project>

@@ -53,16 +53,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<version>3.1.2</version>
 			</plugin>
-			<plugin>
-
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.11.0</version> <!-- Adjust the version if necessary -->
-				<configuration>
-					<source>17</source> <!-- Set your desired Java source version -->
-					<target>17</target> <!-- Set your desired Java target version -->
-				</configuration>
-			</plugin>
 		</plugins>
 	</build>
 
