@@ -2,6 +2,16 @@
 contains ReactNative frontend and Springboot backend projects
 
 
+there is a marketing platform website which helps send bulk messages on whatsapp using whatsapp business api and charges some amount of price based on number messages we send.
+I wanted to use this platform and help small businesses sending bulk messages to their customers that could potentially generate some revenue for me through this. 
+Now i want to contact that marketing company asking them to work with me so that i could get them more customers use their platform to send bulk messages.
+Now i want you to to write me a mail with the top 5 business ideas with them that could potentially impress them to work with me and provide some concession on the amount they are charging.
+please note that  i need to provide some valuable business points to impress them that could only be possible with me
+
+note : please use the words that seem like human wrote , friendly and confident and not like ai generated 
+
+
+
 Subject: Exciting Partnership Opportunity to Boost Your Business
 
 Dear [Marketing Company Name] Team,
