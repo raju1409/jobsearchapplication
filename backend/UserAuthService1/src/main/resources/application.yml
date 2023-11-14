@@ -5,9 +5,9 @@ spring:
   application:
     name: UserAuthService
   datasource:
-    url: jdbc:postgresql://localhost:5432/firstapp
-    username: postgres
-    password: raju1249
+    url : jdbc:postgresql://mysqldb:5432/testdb
+    username: root
+    password: 1234
     driver-class-name: org.postgresql.Driver
   jpa:
     open-in-view: false
