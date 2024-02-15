@@ -10,8 +10,8 @@ public class OtpValidate {
     // Find your Account SID and Auth Token at twilio.com/console
     // and set the environment variables. See http://twil.io/secure
     public static final String ACCOUNT_SID = "ACb347c3cad972b52a0fbdf279bdfd3a5b";
-    public static final String AUTH_TOKEN = "4f36ade599fbeb5f0ad4ef43ff1879a2";
-    private static final String TWILIO_PHONENUMBER = "+12184274708";
+    public static final String AUTH_TOKEN = "be74feba62ce00a67acbb62a8e2e9399";
+    private static final String TWILIO_PHONENUMBER = "+447361591720";
 
     public static String validatePhoneNumber(String phonenumber) {
 //        Twilio.init(ACCOUNT_SID, AUTH_TOKEN);

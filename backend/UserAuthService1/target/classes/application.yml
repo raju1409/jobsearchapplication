@@ -5,9 +5,9 @@ spring:
   application:
     name: UserAuthService
   datasource:
-    url: jdbc:postgresql://localhost:5432/firstapp
-    username: postgres
-    password: raju1249
+    url : postgresql://rajurj.1249:Z2BJlwniM4TL@ep-patient-term-50709811-pooler.ap-southeast-1.aws.neon.tech/db1?sslmode=require
+    username: rajurj.1249
+    password: Z2BJlwniM4TL
     driver-class-name: org.postgresql.Driver
   jpa:
     open-in-view: false
