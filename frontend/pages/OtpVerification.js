@@ -30,7 +30,7 @@ const OtpVerification = () => {
       console.log("entered send otp try block");
       
       const response = await fetch(
-        "http://192.168.0.9:8080/api/v1/auth/sendotp",
+        "https://probable-waffle-76v5ggpwx7pcxxgv-8080.app.github.dev/api/v1/auth/sendotp",
         {
           method: "POST",
           headers: {

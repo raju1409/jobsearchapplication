@@ -45,7 +45,7 @@ const SignUp = () => {
     try {
       console.log("entered register try block");
       const response = await fetch(
-        "http://192.168.0.9:8080/api/v1/auth/register",
+        "http://https://probable-waffle-76v5ggpwx7pcxxgv-8080.app.github.dev/api/v1/auth/register",
         {
           method: "POST",
           headers: {

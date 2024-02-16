@@ -34,7 +34,7 @@ const SignIn = () => {
     }
 
     try {
-      const response = await fetch("http://192.168.0.9:8080/api/v1/auth/authenticate", {
+      const response = await fetch("https://probable-waffle-76v5ggpwx7pcxxgv-8080.app.github.dev/api/v1/auth/authenticate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
