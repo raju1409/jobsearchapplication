@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "frontend",
-    "slug": "appforjobsearch",
+    "slug": "project1",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
@@ -21,7 +21,7 @@
     "web": {},
     "extra": {
       "eas": {
-        "projectId": "3e28e1fe-5567-48f2-8b25-196a275bb62a"
+        "projectId": "b18dadfe-fb6f-49e2-87de-7fe80f1b8982"
       }
     },
     "owner": "rajukommula"

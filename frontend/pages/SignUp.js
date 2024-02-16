@@ -14,6 +14,7 @@ import { Ionicons, MaterialIcons } from "@expo/vector-icons";
 import OtpVerification from "../pages/OtpVerification";
 
 const SignUp = () => {
+  console.log("signuppage");
   const {
     email,
     setEmail,
@@ -45,7 +46,7 @@ const SignUp = () => {
     try {
       console.log("entered register try block");
       const response = await fetch(
-        "http://https://probable-waffle-76v5ggpwx7pcxxgv-8080.app.github.dev/api/v1/auth/register",
+        "https://probable-waffle-76v5ggpwx7pcxxgv-8080.app.github.dev/api/v1/auth/register",
         {
           method: "POST",
           headers: {

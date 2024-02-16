@@ -5,6 +5,7 @@ import { Ionicons } from "@expo/vector-icons"; // Import Ionicons for the back a
 import userAuthFields from "../pages/UserAuthFields";
 
 const SignIn = () => {
+  console.log("signinpage")
   const { email, setEmail, password, setPassword } = userAuthFields();
   const [emailError, setEmailError] = useState(false);
   const [passwordError, setPasswordError] = useState(false);

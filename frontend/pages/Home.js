@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <View style={styles.container}>
             <Text>
-                Welcome to Home Page 
+                Welcome to Home Pageeeee 
             </Text>
         </View>
     )

@@ -1,24 +1,26 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-import { useNavigation } from '@react-navigation/native';
+import { NavigationContainer, useNavigation } from '@react-navigation/native';
 
 
 const LaunchPage = () => {
+  console.log("launch page");
   const navigation = useNavigation();
-
   const handleSignIn = () => {
     navigation.navigate("SignIn")
+    console.log("signin"); 
+
   }
   const handleSignUp = () => {
     navigation.navigate("SignUp")
+    console.log("signup"); 
+
   }
-  
   return (
     <LinearGradient colors={['#0D47A1', 'black']} style={styles.container}>
-      <View style={styles.content}>
+        <View style={styles.content}>
         <Text style={styles.title}>Welcome</Text>
-
         <TouchableOpacity style={[styles.buttonContainer, styles.signInButton]} onPress={handleSignIn}>
           <Text style={styles.buttonText}>Sign In</Text>
         </TouchableOpacity>
@@ -26,11 +28,11 @@ const LaunchPage = () => {
         <TouchableOpacity style={[styles.buttonContainer, styles.signUpButton]} onPress={handleSignUp}>
           <Text style={styles.buttonText}>Sign Up</Text>
         </TouchableOpacity>
+        
 
         
-        
-        
       </View>
+
     </LinearGradient>
   );
 };

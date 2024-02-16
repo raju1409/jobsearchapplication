@@ -20,14 +20,20 @@ const Stack = createStackNavigator();
 
 
 const App = () => {
+  const handleHello = () => {
+    console.log("hello");
+  };
 
 
   return (
+    
     <NavigationContainer>
+      
       <Stack.Navigator 
       screenOptions={{
         headerShown: false, // Hide the header for all screens
-      }}>
+      }}
+      >
         <Stack.Screen name="LaunchPage" component={LaunchPage}/>
         <Stack.Screen name="SignIn" component={SignIn}/>
         <Stack.Screen name="SignUp" component={SignUp}/>

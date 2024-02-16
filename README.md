@@ -1,6 +1,16 @@
 # jobsearchapplication
 contains ReactNative frontend and Springboot backend projects
 
+mvn clean install
+mvn spring-boot:run
+
+npm install
+npx expo start --tunnel
+
+
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+
+
 2blihsrQBgEG47KfK8hzdkcz6Ev_61w354UjZs97WWKAzMmiV
 there is a marketing platform website which helps send bulk messages on whatsapp using whatsapp business api and charges some amount of price based on number messages we send.
 I wanted to use this platform and help small businesses sending bulk messages to their customers that could potentially generate some revenue for me through this. 
