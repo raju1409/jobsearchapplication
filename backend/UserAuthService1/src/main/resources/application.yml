@@ -1,23 +1,23 @@
-server:
-  port: 8080
+# server:
+#   port: 8080
 
-spring:
-  application:
-    name: UserAuthService
-  datasource:
-    url: jdbc:postgresql://hansken.db.elephantsql.com:5432/quwjmein
+# spring:
+#   application:
+#     name: UserAuthService
+#   datasource:
+#     url: jdbc:postgresql://hansken.db.elephantsql.com:5432/quwjmein
 
-    # url : postgres://quwjmein:bAN4dzyvvJ7CnVpxxg_jN-v3NUrrB-Yh@hansken.db.elephantsql.com/quwjmein
-    username: quwjmein
-    password: bAN4dzyvvJ7CnVpxxg_jN-v3NUrrB-Yh
-    driver-class-name: org.postgresql.Driver
-  jpa:
-    open-in-view: false
-    hibernate:
-      ddl-auto: create-drop
-    show-sql: true
-    properties:
-      hibernate:
-        format_sql: true
-    database: postgresql
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
+#     # url : postgres://quwjmein:bAN4dzyvvJ7CnVpxxg_jN-v3NUrrB-Yh@hansken.db.elephantsql.com/quwjmein
+#     username: quwjmein
+#     password: bAN4dzyvvJ7CnVpxxg_jN-v3NUrrB-Yh
+#     driver-class-name: org.postgresql.Driver
+#   jpa:
+#     open-in-view: false
+#     hibernate:
+#       ddl-auto: create-drop
+#     show-sql: true
+#     properties:
+#       hibernate:
+#         format_sql: true
+#     database: postgresql
+#     database-platform: org.hibernate.dialect.PostgreSQLDialect
