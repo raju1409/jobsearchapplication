@@ -16,7 +16,7 @@
     "@react-navigation/native-stack": "^6.9.13",
     "@react-navigation/stack": "^6.3.17",
     "axios": "^1.4.0",
-    "expo": "^49.0.0",
+    "expo": "^49.0.23",
     "expo-auth-session": "~5.0.2",
     "expo-linear-gradient": "~12.3.0",
     "expo-random": "~13.2.0",

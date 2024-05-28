@@ -1,7 +1,7 @@
 /workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/user/Role.java
 /workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/authentication/OtpValidate.java
-/workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/demo/DemoController.java
 /workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/configuration/ApplicationConfig.java
+/workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/demo/DemoController.java
 /workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/authentication/RequestPhoneNumber.java
 /workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/authentication/RegisterRequest.java
 /workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/authentication/AuthenticationRequest.java

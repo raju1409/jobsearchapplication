@@ -1,10 +1,13 @@
 # jobsearchapplication
 contains ReactNative frontend and Springboot backend projects
 
+
 mvn clean install
 mvn spring-boot:run
 
+
 npm install
+npm install -g expo-cli
 npx expo start --tunnel
 
 
