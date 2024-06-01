@@ -21,3 +21,21 @@
 #         format_sql: true
 #     database: postgresql
 #     database-platform: org.hibernate.dialect.PostgreSQLDialect
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://database-1.c1ky0kwmm0qe.us-east-1.rds.amazonaws.com/postgres
+    username: postgres
+    password: 12345678
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect

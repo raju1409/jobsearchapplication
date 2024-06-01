@@ -21,6 +21,7 @@ public class AuthenticationController {
     public ResponseEntity<AuthenticationResponse> register(
             @RequestBody RegisterRequest request
     ) {
+        System.out.println("register triggered");
         return ResponseEntity.ok(service.register(request));
     }
 
@@ -42,6 +43,7 @@ public class AuthenticationController {
     }
     @GetMapping("/test")
     public String testMethod(){
+        System.out.println("test endpiont triggered");
         return "Test Endpoint";
     }
 

@@ -1,4 +1,7 @@
 import React, {useState} from 'react';
+import 'react-native-gesture-handler';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
+
 import {
   Button,
   Platform,
@@ -26,6 +29,7 @@ const App = () => {
 
 
   return (
+    <GestureHandlerRootView style={{ flex: 1 }}>
     
     <NavigationContainer>
       
@@ -40,6 +44,8 @@ const App = () => {
         <Stack.Screen name='Home' component={Home}/>
       </Stack.Navigator>
   </NavigationContainer>
+  </GestureHandlerRootView>
+
   );
 };
 
