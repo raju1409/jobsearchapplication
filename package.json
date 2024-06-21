@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "@react-navigation/native": "^6.1.17",
-    "@react-navigation/stack": "^6.3.29"
+    "http": "^0.0.1-security"
   }
 }

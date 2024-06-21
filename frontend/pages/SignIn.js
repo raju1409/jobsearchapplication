@@ -3,6 +3,9 @@ import { View, Text, TouchableOpacity, StyleSheet, TextInput, Alert } from "reac
 import { useNavigation } from "@react-navigation/native";
 import { Ionicons } from "@expo/vector-icons"; // Import Ionicons for the back arrow icon
 import userAuthFields from "../pages/UserAuthFields";
+import { API_URL } from "@env";
+
+
 
 const SignIn = () => {
   console.log("signinpage")
@@ -35,7 +38,7 @@ const SignIn = () => {
     }
 
     try {
-      const response = await fetch("https://probable-waffle-76v5ggpwx7pcxxgv-8080.app.github.dev/api/v1/auth/authenticate", {
+      const response = await fetch(API_URL, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

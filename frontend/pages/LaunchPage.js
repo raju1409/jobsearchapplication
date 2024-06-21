@@ -3,10 +3,13 @@ import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useNavigation } from '@react-navigation/native';
 
+
+
 const LaunchPage = () => {
   const navigation = useNavigation();
 
   const handleSignIn = () => {
+    console.log("sign in clicked")
     navigation.navigate('SignIn');
   };
 

@@ -12,6 +12,8 @@ import { useNavigation } from "@react-navigation/native"; // Import the useNavig
 import userAuthFields from "../pages/UserAuthFields";
 import { Ionicons, MaterialIcons } from "@expo/vector-icons";
 import OtpVerification from "../pages/OtpVerification";
+import {API_URL} from '@env';
+
 
 const SignUp = () => {
   console.log("signuppage");
@@ -46,7 +48,7 @@ const SignUp = () => {
     try {
       console.log("entered register try block");
       const response = await fetch(
-        "https://probable-waffle-76v5ggpwx7pcxxgv-8080.app.github.dev/api/v1/auth/register",
+        API_URL,
         {
           method: "POST",
           headers: {
@@ -125,7 +127,7 @@ const SignUp = () => {
       <View style={styles.inputContainer}>
 
       <TextInput
-        style={{ flex: 1, paddingRight: 40, height: 50, fontSize: Platform.OS === "ios" ? 24 : 15 }}
+        style={{ flex: 1, paddingRight: 40, height: 50, fontSize: 15 }}
         placeholder="Email"
         value={email}
         onChangeText={handleEmailChange}
@@ -176,7 +178,7 @@ const styles = StyleSheet.create({
     zIndex: 1,
   },
   title: {
-    fontSize:  Platform.OS === "ios" ? 24 : 15,
+    fontSize:  15,
     fontWeight: "bold",
     marginBottom: 20,
   },
@@ -212,7 +214,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     paddingHorizontal: 10,
     marginBottom: 20,
-    fontSize: Platform.OS === "ios" ? 24 : 15
+    fontSize: 15
   },
   invalidInput: {
     borderColor: "red",

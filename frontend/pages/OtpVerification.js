@@ -84,7 +84,7 @@ const OtpVerification = () => {
         />
 
         <TextInput
-          style={{ flex: 1, paddingRight: 40, fontSize:  Platform.OS === "ios" ? 24 : 15 }}
+          style={{ flex: 1, paddingRight: 40, fontSize:  15 }}
           placeholder="Phone Number"
           onChangeText={setPhoneNumber}
           value={phoneNumber}
@@ -99,7 +99,7 @@ const OtpVerification = () => {
               marginRight: 0,
             }}
           >
-            <Text style={{ color: "black", fontSize:  Platform.OS === "ios" ? 20 : 12 }}>Send OTP</Text>
+            <Text style={{ color: "black", fontSize:  12 }}>Send OTP</Text>
           </TouchableOpacity>
         ) : (
           <View style={{ marginLeft: 10 }}>
@@ -122,7 +122,7 @@ const OtpVerification = () => {
       {/* OTP Input field and check circle or cancel icon */}
       <View style={styles.inputContainer}>
         <TextInput
-          style={{ flex: 1, paddingRight: 40, height: 50, fontSize: Platform.OS === "ios" ? 24 : 15 }}
+          style={{ flex: 1, paddingRight: 40, height: 50, fontSize: 15 }}
           placeholder="Enter OTP"
           value={userOtp}
           onChangeText={handleOtpChange} // Use the custom method to handle OTP changes
