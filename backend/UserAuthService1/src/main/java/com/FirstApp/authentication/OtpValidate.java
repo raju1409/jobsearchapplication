@@ -14,15 +14,15 @@ public class OtpValidate {
     private static final String TWILIO_PHONENUMBER = "+447361591720";
 
     public static String validatePhoneNumber(String phonenumber) {
-//        Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
+       Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         String otp = generateOTP();
-//        Message message = Message.creator(
-//                        new com.twilio.type.PhoneNumber(phonenumber),
-//                        new com.twilio.type.PhoneNumber(TWILIO_PHONENUMBER),
-//                        "Your OTP is "+otp)
-//                .create();
-//
-//        System.out.println(message.getSid());
+       Message message = Message.creator(
+                       new com.twilio.type.PhoneNumber(phonenumber),
+                       new com.twilio.type.PhoneNumber(TWILIO_PHONENUMBER),
+                       "Your OTP is "+otp)
+               .create();
+
+       System.out.println(message.getSid());
         System.out.println("phonenumber : " + phonenumber);
         System.out.println("otp : " + otp);
         return otp;

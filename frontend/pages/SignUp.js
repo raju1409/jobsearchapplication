@@ -48,7 +48,7 @@ const SignUp = () => {
     try {
       console.log("entered register try block");
       const response = await fetch(
-        API_URL,
+        API_URL+"/api/v1/auth/register",
         {
           method: "POST",
           headers: {

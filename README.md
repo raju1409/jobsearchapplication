@@ -15,6 +15,11 @@ mvn clean install
 mvn spring-boot:run
 
 
+twilio credentials
+rajurj.1249@gmail.com
+Porsche911@001249
+
+
 npm install
 npm install -g expo-cli
 npx expo start --tunnel
