@@ -28,4 +28,5 @@ npx expo start --tunnel
 export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
 
 
+ngrok authtoken : 
 2blihsrQBgEG47KfK8hzdkcz6Ev_61w354UjZs97WWKAzMmiV
