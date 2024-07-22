@@ -1,2 +1,5 @@
 /workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/UserAuthServiceApplication.java
+/workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/registration/RegistrationController.java
+/workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/secutiry/PasswordEncoder.java
 /workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/secutiry/config/WebSecurityConfig.java
+/workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/user/AppUserService.java

@@ -1,2 +1,5 @@
 com/FirstApp/UserAuthServiceApplication.class
-com/FirstApp/security/config/WebSecurityConfig.class
+com/FirstApp/user/AppUserService.class
+com/FirstApp/secutiry/PasswordEncoder.class
+com/FirstApp/registration/RegistrationController.class
+com/firstApp/security/config/WebSecurityConfig.class

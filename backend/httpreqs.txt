@@ -2,13 +2,13 @@
 
 SIGN UP:
 
-http POST https://b881-4-236-124-117.ngrok-free.app/api/v1/auth/register Content-Type:application/json name="raju kommula" email="rajukommula@example.com" password="password123" phonenumber="1234567890" phonenumber_validated:=true
+http POST https://6de1-4-242-224-194.ngrok-free.app/api/v1/auth/register Content-Type:application/json name="kommular" email="kommularww@example.com" password="3dkjhdsiafh" phonenumber="1234567890" phonenumber_validated:=true
 
 
 
 SIGN IN : 
 
-http POST https://b881-4-236-124-117.ngrok-free.app/api/v1/auth/authenticate Content-Type:application/json email="rajukommula@example.com" password="password123"
+http POST https://6de1-4-242-224-194.ngrok-free.app/api/v1/auth/authenticate Content-Type:application/json email="rajukommula@example.com" password="password123"
 
 
 SEND OTP:
@@ -17,4 +17,28 @@ http POST https://b881-4-236-124-117.ngrok-free.app/api/v1/auth/sendotp Content-
 
 
 
-http https://b881-4-236-124-117.ngrok-free.app/api/v1/auth/test
+http https://6de1-4-242-224-194.ngrok-free.app/api/v1/auth/test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
