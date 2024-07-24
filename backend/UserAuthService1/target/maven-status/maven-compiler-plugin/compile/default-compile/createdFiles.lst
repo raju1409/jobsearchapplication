@@ -1,5 +1,16 @@
 com/FirstApp/UserAuthServiceApplication.class
-com/FirstApp/user/AppUserService.class
+com/FirstApp/registration/token/ConfirmationTokenService.class
 com/FirstApp/secutiry/PasswordEncoder.class
+com/FirstApp/email/EmailSender.class
+com/FirstApp/appuser/AppUser.class
+com/FirstApp/registration/token/ConfirmationTokenRepository.class
+com/FirstApp/registration/EmailValidator.class
+com/FirstApp/registration/RegistrationService.class
+com/FirstApp/email/EmailService.class
+com/FirstApp/appuser/AppUserRepository.class
+com/FirstApp/appuser/AppUserRole.class
 com/FirstApp/registration/RegistrationController.class
+com/FirstApp/appuser/AppUserService.class
 com/firstApp/security/config/WebSecurityConfig.class
+com/FirstApp/registration/token/ConfirmationToken.class
+com/FirstApp/registration/RegistrationRequest.class

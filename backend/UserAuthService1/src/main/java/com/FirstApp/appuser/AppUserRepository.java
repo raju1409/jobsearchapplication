@@ -23,5 +23,5 @@ public interface AppUserRepository
     @Query("UPDATE AppUser a " +
             "SET a.enabled = TRUE WHERE a.email = ?1")
     int enableAppUser(String email);
-
+        
 }

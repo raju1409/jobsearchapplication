@@ -1,14 +1,17 @@
 package com.FirstApp.appuser;
 
 
-import com.example.demo.registration.token.ConfirmationToken;
-import com.example.demo.registration.token.ConfirmationTokenService;
+import com.FirstApp.registration.token.ConfirmationToken;
+import com.FirstApp.registration.token.ConfirmationTokenService;
 import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.context.annotation.Bean;
+
 
 import java.time.LocalDateTime;
 import java.util.UUID;
@@ -16,6 +19,8 @@ import java.util.UUID;
 @Service
 @AllArgsConstructor
 public class AppUserService implements UserDetailsService {
+
+      
 
     private final static String USER_NOT_FOUND_MSG =
             "user with email %s not found";
@@ -41,6 +46,8 @@ public class AppUserService implements UserDetailsService {
         if (userExists) {
             // TODO check of attributes are the same and
             // TODO if email not confirmed send confirmation email.
+            //check if user is enabled
+            
 
             throw new IllegalStateException("email already taken");
         }
@@ -68,7 +75,7 @@ public class AppUserService implements UserDetailsService {
 
         return token;
     }
-
+    @Bean
     public int enableAppUser(String email) {
         return appUserRepository.enableAppUser(email);
     }

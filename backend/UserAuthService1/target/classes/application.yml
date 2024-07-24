@@ -1,43 +1,21 @@
-# server:
-#   port: 8080
-
-# spring:
-#   application:
-#     name: UserAuthService
-#   datasource:
-#     url: jdbc:postgresql://hansken.db.elephantsql.com:5432/quwjmein
-
-#     # url : postgres://quwjmein:bAN4dzyvvJ7CnVpxxg_jN-v3NUrrB-Yh@hansken.db.elephantsql.com/quwjmein
-#     username: quwjmein
-#     password: bAN4dzyvvJ7CnVpxxg_jN-v3NUrrB-Yh
-#     driver-class-name: org.postgresql.Driver
-#   jpa:
-#     open-in-view: false
-#     hibernate:
-#       ddl-auto: create-drop
-#     show-sql: true
-#     properties:
-#       hibernate:
-#         format_sql: true
-#     database: postgresql
-#     database-platform: org.hibernate.dialect.PostgreSQLDialect
 server:
   port: 8080
 
 spring:
   datasource:
-    url: jdbc:postgresql://database-1.c1ky0kwmm0qe.us-east-1.rds.amazonaws.com/postgres
+    url: jdbc:postgresql://database-1.c1ky0kwmm0qe.us-east-1.rds.amazonaws.com:5432/postgres
     username: postgres
-    password: 12345678
+    password: porsche1249
     driver-class-name: org.postgresql.Driver
     hikari:
       max-lifetime: 1800000
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
     show-sql: true
     properties:
       hibernate:
         format_sql: true
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
+    entity-packages: com.FirstApp.appuser

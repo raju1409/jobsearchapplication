@@ -1,5 +1,16 @@
 /workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/UserAuthServiceApplication.java
+/workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/appuser/AppUser.java
+/workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/appuser/AppUserRepository.java
+/workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/appuser/AppUserRole.java
+/workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/appuser/AppUserService.java
+/workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/email/EmailSender.java
+/workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/email/EmailService.java
+/workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/registration/EmailValidator.java
 /workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/registration/RegistrationController.java
+/workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/registration/RegistrationRequest.java
+/workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/registration/RegistrationService.java
+/workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/registration/token/ConfirmationToken.java
+/workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/registration/token/ConfirmationTokenRepository.java
+/workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/registration/token/ConfirmationTokenService.java
 /workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/secutiry/PasswordEncoder.java
 /workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/secutiry/config/WebSecurityConfig.java
-/workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/user/AppUserService.java

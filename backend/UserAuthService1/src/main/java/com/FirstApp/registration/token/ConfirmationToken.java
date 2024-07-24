@@ -8,6 +8,9 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import javax.persistence.ManyToOne;
+import javax.persistence.Column;
+
 
 import com.FirstApp.appuser.AppUser;
 
