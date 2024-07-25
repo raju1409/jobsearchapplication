@@ -3,6 +3,7 @@
 /workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/appuser/AppUserRepository.java
 /workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/appuser/AppUserRole.java
 /workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/appuser/AppUserService.java
+/workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/config/JpaConfiguration.java
 /workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/email/EmailSender.java
 /workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/email/EmailService.java
 /workspaces/jobsearchapplication/backend/UserAuthService1/src/main/java/com/FirstApp/registration/EmailValidator.java

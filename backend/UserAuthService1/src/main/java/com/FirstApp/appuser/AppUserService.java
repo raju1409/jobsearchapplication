@@ -11,16 +11,32 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.context.annotation.Bean;
+import org.springframework.beans.factory.annotation.Autowired;
+
 
 
 import java.time.LocalDateTime;
 import java.util.UUID;
 
 @Service
-@AllArgsConstructor
 public class AppUserService implements UserDetailsService {
 
       
+        //contructor injection
+        @Autowired
+        public AppUserService(AppUserRepository appUserRepository,
+        BCryptPasswordEncoder bCryptPasswordEncoder,
+        ConfirmationTokenService confirmationTokenService
+        
+        ) {
+                this.appUserRepository = appUserRepository;
+                this.bCryptPasswordEncoder = bCryptPasswordEncoder;
+                this.confirmationTokenService = confirmationTokenService;
+        }
+
+
+
+
 
     private final static String USER_NOT_FOUND_MSG =
             "user with email %s not found";

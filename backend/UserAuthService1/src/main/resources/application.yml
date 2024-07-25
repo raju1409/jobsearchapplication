@@ -18,4 +18,6 @@ spring:
         format_sql: true
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
-    entity-packages: com.FirstApp.appuser
+    entity-packages: 
+      - com.FirstApp.appuser
+      - com.FirstApp.registration.token
