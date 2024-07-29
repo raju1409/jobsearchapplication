@@ -21,3 +21,26 @@ spring:
     entity-packages: 
       - com.FirstApp.appuser
       - com.FirstApp.registration.token
+
+
+  mail:
+    host: https://curly-fishstick-x75pjjvx9x5c6797.github.dev/
+    port: 1025
+    username: hello
+    password: hello
+
+    properties:
+      mail:
+        smtp:
+          ssl:
+            trust: "*"
+          auth: true
+          starttls:
+            enable: true
+          connectiontimeout: 5000
+          timeout: 3000
+          writetimeout: 5000
+
+
+
+

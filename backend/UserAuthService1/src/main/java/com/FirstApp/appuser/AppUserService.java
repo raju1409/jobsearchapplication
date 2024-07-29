@@ -91,7 +91,8 @@ public class AppUserService implements UserDetailsService {
 
         return token;
     }
-    @Bean
+
+
     public int enableAppUser(String email) {
         return appUserRepository.enableAppUser(email);
     }
