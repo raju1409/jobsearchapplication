@@ -21,8 +21,12 @@ spring:
     entity-packages: 
       - com.FirstApp.appuser
       - com.FirstApp.registration.token
-
-
+  security:
+    basic:
+      enabled: false # Disable basic authentication
+    user:
+      name: user
+      password: password
   mail:
     host: https://curly-fishstick-x75pjjvx9x5c6797.github.dev/
     port: 1025
