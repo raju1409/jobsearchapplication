@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 @Controller
-@RequestMapping(path = "api/v1/registration")
+@RequestMapping(path = "api")
 @AllArgsConstructor
 public class RegistrationController {
 
